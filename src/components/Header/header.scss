@@ -1,0 +1,29 @@
+.headerInfoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFB30E;
+  .textwrap {
+    width: 40%;
+    h1 {
+      font-weight: 700;
+      font-size: 88px;
+      color: #fff;
+      text-shadow: 0 14px 15px rgba(255, 174, 0, 0.01), 0 27px 82px rgba(255, 174, 0, 0.28);
+    }
+    p {
+      font-weight: 400;
+      font-size: 22px;
+      color: #504F4F;
+    }
+  }
+  .imgWrap {
+    width: 40%;
+    img {
+      width: 100%;
+      height: auto;
+      padding: 50px 50px 0 50px;
+      transform: translateY(3px);
+    }
+  }
+}

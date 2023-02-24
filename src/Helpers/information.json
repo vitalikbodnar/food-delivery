@@ -1,0 +1,35 @@
+{
+  "information": {
+    "title": "How does it work",
+    "items": [
+      {
+        "id": 0,
+        "itemTitle": "Select location",
+        "itemText": "Choose the location where your food will be delivered.",
+        "itemImg": "informationImages/locate.png",
+        "altText": "locate"
+      },
+      {
+        "id": 1,
+        "itemTitle": "Choose order",
+        "itemText": "Check over hundreds of menus to pick your favorite food",
+        "itemImg": "informationImages/order.png",
+        "altText": "order"
+      },
+      {
+        "id": 2,
+        "itemTitle": "Pay advanced",
+        "itemText": "Quick, safe, and simple! Select several methods of payment",
+        "itemImg": "informationImages/pay.png",
+        "altText": "pay"
+      },
+      {
+        "id": 3,
+        "itemTitle": "Enjoy meals",
+        "itemText": "Food is made and delivered directly to your home.",
+        "itemImg": "informationImages/donut.png",
+        "altText": "donut"
+      }
+    ]
+  }
+}

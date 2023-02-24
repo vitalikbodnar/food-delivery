@@ -1,0 +1,39 @@
+.restaurantsWrapper {
+  position: relative;
+  padding: 80px 250px 16px 250px;
+  .restaurantsTitle {
+    margin: 0 0 100px 0;
+    font-weight: 700;
+    font-size: 43px;
+    text-align: center;
+    color: #212121;
+  }
+  .itemList {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .backButton {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 106px;
+    left: 100px;
+    cursor: pointer;
+    &:hover {
+      img {
+        transform: translateX(-10px);
+      }
+    }
+    img {
+      width: 25px;
+      height: 25px;
+      transition: transform .2s ease;
+    }
+    .backButtonText {
+      margin-left: 6px;
+      font-weight: 700;
+      font-size: 18px;
+      color: #424242;
+    }
+  }
+}

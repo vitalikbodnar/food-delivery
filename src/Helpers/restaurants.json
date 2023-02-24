@@ -1,0 +1,271 @@
+{
+  "restaurants": {
+    "title": "Featured Restaurants",
+    "items": [
+      {
+        "id": 0,
+        "coverImage": "restaurantsImages/1.png",
+        "promotionValue": 20,
+        "speed": "fast",
+        "itemName": "Foodworld",
+        "logo": "restaurantsImages/11.png",
+        "likeValue": 46,
+        "openStatus": true,
+        "positions": [
+          {
+            "id": 0,
+            "quantity": 1,
+            "positionName": "name1",
+            "positionPrice": 147,
+            "positionImage": "restaurantsImages/position1.png"
+          },
+          {
+            "id": 1,
+            "quantity":  1,
+            "positionName": "name11",
+            "positionPrice": 128,
+            "positionImage": "restaurantsImages/position2.png"
+          },
+          {
+            "id": 2,
+            "quantity":  1,
+            "positionName": "name111",
+            "positionPrice": 133,
+            "positionImage": "restaurantsImages/position3.png"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "coverImage": "restaurantsImages/2.png",
+        "promotionValue": 10,
+        "speed": "fast",
+        "itemName": "Pizzahub",
+        "logo": "restaurantsImages/22.png",
+        "likeValue": 33,
+        "openStatus": true,
+        "positions": [
+          {
+            "id": 3,
+            "quantity": 1,
+            "positionName": "name2",
+            "positionPrice": 56,
+            "positionImage": "restaurantsImages/position4.png"
+          },
+          {
+            "id": 4,
+            "quantity": 1,
+            "positionName": "name22",
+            "positionPrice": 237,
+            "positionImage": "restaurantsImages/position5.png"
+          },
+          {
+            "id": 5,
+            "quantity": 1,
+            "positionName": "name222",
+            "positionPrice": 78,
+            "positionImage": "restaurantsImages/position6.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "coverImage": "restaurantsImages/3.png",
+        "promotionValue": 15,
+        "speed": "fast",
+        "itemName": "Donuts hut",
+        "logo": "restaurantsImages/33.png",
+        "likeValue": 87,
+        "openStatus": false,
+        "positions": [
+          {
+            "id": 6,
+            "quantity": 1,
+            "positionName": "name3",
+            "positionPrice": 95,
+            "positionImage": "restaurantsImages/position7.png"
+          },
+          {
+            "id": 7,
+            "quantity": 1,
+            "positionName": "name33",
+            "positionPrice": 100,
+            "positionImage": "restaurantsImages/position8.png"
+          },
+          {
+            "id": 8,
+            "quantity": 1,
+            "positionName": "name333",
+            "positionPrice": 340,
+            "positionImage": "restaurantsImages/position9.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "coverImage": "restaurantsImages/4.png",
+        "promotionValue": 30,
+        "speed": "fast",
+        "itemName": "Donuts hut",
+        "logo": "restaurantsImages/44.png",
+        "likeValue": 72,
+        "openStatus": false,
+        "positions": [
+          {
+            "id": 9,
+            "quantity": 1,
+            "positionName": "name4",
+            "positionPrice": 27,
+            "positionImage": "restaurantsImages/position10.png"
+          },
+          {
+            "id": 10,
+            "quantity": 1,
+            "positionName": "name44",
+            "positionPrice": 93,
+            "positionImage": "restaurantsImages/position11.png"
+          },
+          {
+            "id": 11,
+            "quantity": 1,
+            "positionName": "name444",
+            "positionPrice": 123,
+            "positionImage": "restaurantsImages/position1.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "coverImage": "restaurantsImages/5.png",
+        "promotionValue": 20,
+        "speed": "fast",
+        "itemName": "Ruby Tuesday",
+        "logo": "restaurantsImages/55.png",
+        "likeValue": 19,
+        "openStatus": true,
+        "positions": [
+          {
+            "id": 12,
+            "quantity": 1,
+            "positionName": "name5",
+            "positionPrice": 148,
+            "positionImage": "restaurantsImages/position2.png"
+          },
+          {
+            "id": 13,
+            "quantity": 1,
+            "positionName": "name55",
+            "positionPrice": 120,
+            "positionImage": "restaurantsImages/position3.png"
+          },
+          {
+            "id": 14,
+            "quantity": 1,
+            "positionName": "name555",
+            "positionPrice": 111,
+            "positionImage": "restaurantsImages/position4.png"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "coverImage": "restaurantsImages/6.png",
+        "promotionValue": 20,
+        "speed": "fast",
+        "itemName": "Kuakata Fried Chicken",
+        "logo": "restaurantsImages/66.png",
+        "likeValue": 90,
+        "openStatus": true,
+        "positions": [
+          {
+            "id": 15,
+            "quantity": 1,
+            "positionName": "name6",
+            "positionPrice": 215,
+            "positionImage": "restaurantsImages/position5.png"
+          },
+          {
+            "id": 16,
+            "quantity": 1,
+            "positionName": "name66",
+            "positionPrice": 239,
+            "positionImage": "restaurantsImages/position6.png"
+          },
+          {
+            "id": 17,
+            "quantity": 1,
+            "positionName": "name666",
+            "positionPrice": 78,
+            "positionImage": "restaurantsImages/position7.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "coverImage": "restaurantsImages/7.png",
+        "promotionValue": 0,
+        "speed": "fast",
+        "itemName": "Red Square",
+        "logo": "restaurantsImages/77.png",
+        "likeValue": 23,
+        "openStatus": false,
+        "positions": [
+          {
+            "id": 18,
+            "quantity": 1,
+            "positionName": "name7",
+            "positionPrice": 234,
+            "positionImage": "restaurantsImages/position8.png"
+          },
+          {
+            "id": 19,
+            "quantity": 1,
+            "positionName": "name77",
+            "positionPrice": 43,
+            "positionImage": "restaurantsImages/position9.png"
+          },
+          {
+            "id": 20,
+            "quantity": 1,
+            "positionName": "name777",
+            "positionPrice": 239,
+            "positionImage": "restaurantsImages/position10.png"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "coverImage": "restaurantsImages/8.png",
+        "promotionValue": 15,
+        "speed": "fast",
+        "itemName": "Taco Bell",
+        "logo": "restaurantsImages/88.png",
+        "likeValue": 76,
+        "openStatus": true,
+        "positions": [
+          {
+            "id": 21,
+            "quantity": 1,
+            "positionName": "name8",
+            "positionPrice": 23,
+            "positionImage": "restaurantsImages/position11.png"
+          },
+          {
+            "id": 22,
+            "quantity": 1,
+            "positionName": "name88",
+            "positionPrice": 349,
+            "positionImage": "restaurantsImages/position1.png"
+          },
+          {
+            "id": 23,
+            "quantity": 1,
+            "positionName": "name888",
+            "positionPrice": 175,
+            "positionImage": "restaurantsImages/position2.png"
+          }
+        ]
+      }
+    ]
+  }
+}

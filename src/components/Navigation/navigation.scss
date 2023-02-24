@@ -1,0 +1,69 @@
+.navigationWrapper {
+  width: 100%;
+  max-width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+  .logo {
+    width: 20%;
+    img {
+      height: 48px;
+    }
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    :last-child {
+      padding-left: 5px;
+    }
+    .boldText {
+      font-weight: 700;
+      font-size: 18px;
+      color: #424242;
+    }
+    .commonText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      font-size: 18px;
+      color: #424242;
+      img {
+        height: 16px;
+        padding-left: 10px;
+        padding-right: 5px;
+      }
+    }
+  }
+  .basket {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    img {
+      height: 30px;
+    }
+    .basketItemWrap {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+    }
+    .basketItemNumber {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      font-size: 10px;
+      font-weight: 700;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    }
+  }
+}

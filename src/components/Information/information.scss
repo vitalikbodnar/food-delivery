@@ -1,0 +1,45 @@
+.informationWrapper {
+  padding: 80px 250px;
+  background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+  .informationTitle {
+    padding-bottom: 70px;
+    h3 {
+      margin: 0;
+      text-align: center;
+      font-weight: 700;
+      font-size: 43px;
+      color: #F17228;
+    }
+  }
+  .itemWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .informationItems {
+      width: 25%;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .itemsImage {
+        img {
+          height: 112px;
+        }
+      }
+      .itemsTitle {
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        color: #434343;
+      }
+      .itemsText {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #9E9E9E;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.propositionList {
+  .itemWrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .itemHeader {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      .shopName {
+        margin: 0;
+        font-weight: 700;
+        font-size: 43px;
+        color: #F17228;
+        text-align: center;
+      }
+      .itemLogo {
+        img {
+          width: 80px;
+        }
+      }
+    }
+    .listItem {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .singleItem {
+        position: relative;
+        width: 49%;
+        display: flex;
+        margin-bottom: 15px;
+        border: 1px solid #e4e4e4;
+        transition: transform .2s ease;
+        &.disabled {
+            .message {
+              opacity: 1;
+              user-select: auto;
+              pointer-events: auto;
+            }
+        }
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.02);
+        }
+        .message {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          background: #00A082;
+          font-weight: 700;
+          font-size: 22px;
+          color: #fff;
+          background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+          box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+          opacity: 0;
+          user-select: none;
+          pointer-events: none;
+          transition: opacity ease .3ms;
+        }
+        .itemImage {
+          width: 40%;
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+        }
+        .itemInfo {
+          width: 60%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: space-around;
+          .itemName {
+            font-weight: 700;
+            font-size: 22px;
+            color: #424242;
+          }
+          .itemPrice {
+            font-weight: 700;
+            font-size: 22px;
+            color: #79B93C;
+          }
+        }
+      }
+    }
+
+    .plusWrapper {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      width: 32px;
+      height: 32px;
+      background-color: #E9F8F5;
+      border-radius: 50%;
+      &.disabled {
+        display: none;
+        user-select: none;
+        pointer-events: none;
+      }
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

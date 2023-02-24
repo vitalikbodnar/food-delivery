@@ -1,0 +1,72 @@
+.minusWrapper {
+  background-color: #E9F8F5;
+}
+.emptyBasket {
+  font-weight: 700;
+  font-size: 43px;
+  text-align: center;
+  color: #212121;
+}
+.basketItemWrapper {
+  .itemWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+    &:last-of-type {
+      border-bottom: none;
+    }
+    .itemImage {
+      margin-right: 20px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .itemValue {
+      display: flex;
+      align-items: center;
+      .minus {
+        margin-right: 10px;
+        cursor: pointer;
+        .minusWrapper {
+          width: 25px;
+          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          background-color: #E9F8F5;
+          .line {
+            width: 50%;
+            height: 2px;
+            background-color: #00A082;
+          }
+        }
+      }
+      .value {
+        font-weight: 700;
+        font-size: 18px;
+        color: #424242;
+      }
+      .plus {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+    .itemName {
+      width: 60%;
+      font-size: 18px;
+      color: #424242;
+      text-align: center;
+    }
+    .itemPrice {
+      font-weight: 700;
+      font-size: 18px;
+      color: #424242;
+      text-align: center;
+    }
+  }
+}
